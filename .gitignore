@@ -1,0 +1,7 @@
+# Database configs
+POLL_App/db_connect.php
+AWS.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
