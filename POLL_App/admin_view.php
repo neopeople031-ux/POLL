@@ -268,7 +268,10 @@ for ($i = 6; $i >= 0; $i--) {
         </div>
 
         <div class="table-section">
-            <h2>상세 피드백 기록</h2>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 25px 30px; border-bottom: 1px solid #eee;">
+                <h2 style="padding: 0; border: none; font-size: 1.2rem; margin: 0;">상세 피드백 기록</h2>
+                <a href="export_csv.php" class="logout-btn" style="background: #2ecc71; color: white; border: none;">📥 엑셀(CSV) 다운로드</a>
+            </div>
             <div class="table-container">
                 <table>
                     <thead>
